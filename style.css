@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Martel+Sans&family=Open+Sans:wght@300&display=swap');
+
+
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Lato', sans-serif;
+}
+
+a{
+	text-decoration: none;
+}
+
+ul li{
+	list-style: none;
+}
+
+.container{
+	width: 100%;
+	height: 100vh;
+	background-image:url( images/bg.jpg);
+	background-position: center center;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.box_container{
+	width:70% ;
+	padding: 50px;
+	background-color:;
+	background-image: linear-gradient(140deg,   rgba(255, 107, 107, .5), rgba(72, 219, 251, .7), rgba(190, 46, 221, .6),rgba(249, 202, 36, .6));
+	backdrop-filter: blur(30px);
+	border-radius: 5px;
+}
+.search{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-bottom: 1px solid #fff;
+}
+
+.search i{
+	flex-grow: auto;
+	font-size: 30px;
+	color: #fff;
+}
+
+.icon{
+	font-weight: bold;
+}
+
+.search input{
+	flex-grow: 1;
+	padding: 10px;
+	font-size: 20px;
+	color: #fff;
+	outline: none;
+	border: none;
+	background-color: transparent;
+	margin-left: 10px;
+}
+
+.search input::placeholder {
+  color: #fff;
+}
+
+.tool_box{
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+	grid-row-gap: 20px;
+}
+
+.box{
+	padding: 10px ;
+	text-align: center;
+	color: #fff;
+}
+
+.box i{
+	font-size: 28px;
+}
+
+.box h4{
+	margin-top: 5px;
+}
+
+.box:hover{
+	cursor: pointer;
+}
+
+
